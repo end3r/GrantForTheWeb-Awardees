@@ -1,0 +1,28 @@
+* { margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { background: #fff; font-family: 'DM Sans', sans-serif; }
+
+header { background: #ecfdf8 url(../img/grantfortheweb-banner.png) center top no-repeat; width: 100%; background-size: contain; }
+header h1 img { visibility: hidden; width: 100%; }
+
+a { color: #000; text-decoration: underline; }
+a:hover { text-decoration: none; }
+
+section { padding: 2rem 4rem 3rem 4rem; }
+section h2 { background: url(../img/arrow.png) no-repeat; line-height: 2rem; padding: 2.5rem 2rem 4rem 10rem; font-weight: normal; }
+
+table { width: 100%; margin-bottom: 2rem; border: 0; border-collapse: collapse; font-size: 1.1rem; line-height: 1.4rem; }
+table th { background: #d0c2fb; text-align: left; }
+table th, table td { border: 0; margin: 0; padding: 1.25rem 0.75rem; }
+
+table td:first-child { padding-left: 1.5rem; }
+table td:last-child { padding-right: 1.5rem; }
+table tr { background: #e3f8fe; }
+table tr:nth-child(2n) { background: #ebfdf8; }
+
+summary { cursor: pointer; white-space: nowrap; }
+
+footer { background: #2d333a; text-align: center; }
+footer p { color: #fff; padding: 3rem 0; }
+footer a { color: #fff; text-decoration: underline; }
+footer a:hover { text-decoration: none; }
